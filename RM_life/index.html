@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMLife - Gestão e Segurança</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="logo-container">
+                <img src="./IMG/logoRM.png" alt="RMLife Logo" class="logo-img">
+            </div>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio" class="nav-item">Início</a></li>
+                <li><a href="#servicos" class="nav-item">Medicina Ocupacional</a></li>
+                <li><a href="#gestao" class="nav-item">Gestão eSocial</a></li>
+                <li><a href="#laudos" class="nav-item">Laudos Técnicos</a></li>
+                <li><a href="#treinamentos" class="nav-item">Treinamentos</a></li>
+                
+                <li><a href="#contato" class="btn-contact">Fale Conosco</a></li>
+            </ul>
+
+            <div class="mobile-menu-icon" onclick="toggleMenu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="container hero-content">
+            
+            <div class="text-box">
+                <span class="badge">Gestão de Segurança e Saúde do Trabalho</span>
+                <h1 class="animate-up">
+                    Conheça Nossas Soluções em <span class="highlight">Gestão de Segurança</span> e Saúde do Trabalho
+                </h1>
+                <p class="animate-up delay-1" id="typing-text">
+                    </p>
+                
+                <div class="cta-buttons animate-up delay-2">
+                    <a href="#contato" class="btn-primary">Entrar em contato</a>
+                    <a href="#servicos" class="btn-text">Ver Soluções <span class="arrow">→</span></a>
+                </div>
+            </div>
+            
+            <div class="hero-visual animate-fade delay-2">
+                <div class="blob-wrapper">
+                    <img src="./IMG/medwork.jpeg" alt="Engenheiro de Segurança" class="blob-img">
+                </div>
+                <div class="float-card">
+                    <div class="icon-check">✓</div>
+                    <div>
+                        <strong>100%</strong>
+                        <span>Em conformidade</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    
+
+    <section id="servicos" class="services-section">
+        <div class="container">
+            
+            <div class="services-header">
+                <div class="title-wrapper">
+                    <span class="pulse-badge">
+                        <span class="pulse-dot"></span> Clínica Credenciada
+                    </span>
+                    <h2 class="animate-on-scroll">Soluções em <span class="highlight-blue">Medicina Ocupacional</span></h2>
+                    <p class="animate-on-scroll delay-1">Realizamos toda a gestão de exames para garantir a saúde da sua equipe e a conformidade da sua empresa.</p>
+                </div>
+                
+                <div class="medical-icon-visual animate-on-scroll delay-2">
+                    <div class="cross-shape"></div>
+                    <div class="circle-bg"></div>
+                </div>
+            </div>
+
+            <div class="exams-grid" id="exams-grid">
+                
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14.25,18.75h-4.5c-0.41,0-0.75,0.34-0.75,0.75s0.34,0.75,0.75,0.75h4.5c0.41,0,0.75-0.34,0.75-0.75S14.66,18.75,14.25,18.75z M20.25,9c0-3.35-2.42-6.14-5.62-6.66l0.31-0.65C15.08,1.39,14.79,1.06,14.47,1.2L12,2.25L9.53,1.2C9.21,1.06,8.92,1.39,9.06,1.69l0.31,0.65C6.17,2.86,3.75,5.65,3.75,9c0,3.62,2.5,6.67,5.88,7.36c0.55,1.55,1.78,2.81,3.37,3.37V22H10.5c-0.41,0-0.75,0.34-0.75,0.75S10.09,23.5,10.5,23.5h3c0.41,0,0.75-0.34,0.75-0.75s-0.34-0.75-0.75-0.75h-2.5v-2.27c1.59-0.57,2.82-1.83,3.37-3.37C17.75,15.67,20.25,12.62,20.25,9z M12,18.75c-1.24,0-2.25-1.01-2.25-2.25S10.76,14.25,12,14.25s2.25,1.01,2.25,2.25S13.24,18.75,12,18.75z M5.25,9c0-3.72,3.03-6.75,6.75-6.75s6.75,3.03,6.75,6.75c0,3.31-2.41,6.06-5.57,6.64l-0.3-1.37C14.7,13.24,14.07,12.75,12,12.75s-2.7,0.49-2.88,1.52l-0.3,1.37C5.66,15.06,3.25,12.31,3.25,9H5.25z"/></svg>
+                    </div>
+                    <h3>Exame Clínico (ASO)</h3>
+                    <p>Atestado de Saúde Ocupacional completo e ágil.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19,16h-1.1l-2.6-6.6c-0.2-0.5-0.8-0.8-1.3-0.6c-0.5,0.2-0.8,0.8-0.6,1.3l2,5H9.6l2-5c0.2-0.5-0.1-1.1-0.6-1.3C10.5,8.6,9.9,8.8,9.7,9.4L7.1,16H6c-1.1,0-2,0.9-2,2s0.9,2,2,2h13c1.1,0,2-0.9,2-2S20.1,16,19,16z M12,2c-1.7,0-3,1.3-3,3s1.3,3,3,3s3-1.3,3-3S13.7,2,12,2z"/></svg>
+                    </div>
+                    <h3>Exames Complementares</h3>
+                    <p>Laboratoriais, imagem e audiometria integrados.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                         <svg viewBox="0 0 24 24"><path d="M12,12c2.21,0,4-1.79,4-4s-1.79-4-4-4S8,5.79,8,8S9.79,12,12,12z M12,14c-2.67,0-8,1.34-8,4v2h16v-2C20,15.34,14.67,14,12,14z M19,3l-3.29,3.29L13.41,4L12,5.41L15.71,9.12L22,2.83L20.59,1.41L19,3z"/></svg>
+                    </div>
+                    <h3>Admissional</h3>
+                    <p>Segurança jurídica na contratação de novos talentos.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M10.09,15.59L11.5,17l5-5l-5-5L10.09,8.41L12.67,11H3v2h9.67L10.09,15.59z M19,3H5C3.89,3,3,3.9,3,5v4h2V5h14v14H5v-4H3v4c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V5C21,3.9,20.1,3,19,3z"/></svg>
+                    </div>
+                    <h3>Demissional</h3>
+                    <p>Avaliação final para encerramento de contrato seguro.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19,4h-1V2h-2v2H8V2H6v2H5C3.89,4,3.01,4.9,3.01,6L3,20c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V6C21,4.9,20.1,4,19,4z M19,20H5V10h14V20z M19,8H5V6h14V8z M9,14H7v-2h2V14z M13,14h-2v-2h2V14z M17,14h-2v-2h2V14z M9,18H7v-2h2V18z M13,18h-2v-2h2V18z M17,18h-2v-2h2V18z"/></svg>
+                    </div>
+                    <h3>Periódico</h3>
+                    <p>Monitoramento constante da saúde do colaborador.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M17.65,6.35C16.2,4.9,14.21,4,12,4c-4.42,0-7.99,3.58-7.99,8s3.57,8,7.99,8c3.73,0,6.84-2.55,7.73-6h-2.08c-0.82,2.33-3.04,4-5.65,4c-3.31,0-6-2.69-6-6s2.69-6,6-6c1.66,0,3.14,0.69,4.22,1.78L13,11h7V4L17.65,6.35z"/></svg>
+                    </div>
+                    <h3>Retorno ao Trabalho</h3>
+                    <p>Validação clínica pós-afastamento.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                         <svg viewBox="0 0 24 24"><path d="M14,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8L14,2z M16,18H8v-2h8V18z M16,14H8v-2h8V14z M13,9V3.5L18.5,9H13z"/></svg>
+                    </div>
+                    <h3>Relatórios Anuais</h3>
+                    <p>Documentação completa para gestão de SST.</p>
+                </div>
+
+                <div class="exam-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12,1L3,5v6c0,5.55,3.84,10.74,9,12c5.16-1.26,9-6.45,9-12V5L12,1z M12,11.99h7c-0.53,4.12-3.28,7.79-7,8.94V12H5V6.3l7-3.11V11.99z"/></svg>
+                    </div>
+                    <h3>Avaliação Ocupacional</h3>
+                    <p>Análise técnica dos riscos do ambiente.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="gestao" class="management-section">
+        <div class="container">
+            
+            <div class="management-grid">
+                
+                <div class="management-visual animate-on-scroll">
+                    <div class="image-frame">
+                        <img src="./IMG/imgB3.jpg" alt="Gestão de SST eSocial" class="tech-img">
+                        
+                        <div class="esocial-card floating-anim">
+                            <div class="esocial-header">
+                                <span class="dot-red"></span>
+                                <span class="dot-yellow"></span>
+                                <span class="dot-green"></span>
+                            </div>
+                            <div class="esocial-content">
+                                <div class="check-icon-box">✓</div>
+                                <div class="esocial-text">
+                                    <strong>eSocial</strong>
+                                    <span>Eventos Enviados</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-content">
+                    <h2 class="section-title animate-on-scroll">Gestão Completa e <br><span class="highlight">Assessoria Técnica</span></h2>
+                    <p class="section-desc animate-on-scroll delay-1">
+                        Centralizamos a burocracia para você focar no seu negócio. Garantimos o envio correto de eventos e a gestão de riscos.
+                    </p>
+
+                    <div class="feature-list">
+                        
+                        <div class="feature-item animate-on-scroll delay-1">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M19.35,10.04C18.67,6.59,15.64,4,12,4C9.11,4,6.6,5.64,5.35,8.04C2.34,8.36,0,10.91,0,14c0,3.31,2.69,6,6,6h13c2.76,0,5-2.24,5-5C24,12.36,21.95,10.22,19.35,10.04z M14,13v4h-4v-4H7l5-5l5,5H14z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>eSocial (Envio de Eventos)</h3>
+                                <p>S-2210, S-2220 e S-2240 com validação.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item animate-on-scroll delay-2">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M14,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V8L14,2z M6,20v-2h12v2H6z M6,16v-2h12v2H6z M13,9V3.5L18.5,9H13z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>PPP Eletrônico</h3>
+                                <p>Perfil Profissiográfico Previdenciário atualizado.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item animate-on-scroll delay-2">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M12,2L1,21h22L12,2z M13,18h-2v-2h2V18z M13,14h-2v-6h2V14z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Gestão de Acidentes</h3>
+                                <p>Investigação de incidentes e planos de ação.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item animate-on-scroll delay-2">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24"><path d="M12,2c-4.42,0-8,3.58-8,8c0,4.42,3.58,8,8,8s8-3.58,8-8C20,5.58,16.42,2,12,2z M12,16c-3.31,0-6-2.69-6-6s2.69-6,6-6s6,2.69,6,6S15.31,16,12,16z"/></svg>
+                            </div>
+                            <div class="feature-text">
+                                <h3>Controle de EPI</h3>
+                                <p>Gestão de fichas e entregas de equipamentos.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="laudos" class="laudos-section">
+        <div class="container">
+            
+            <div class="laudos-header animate-on-scroll">
+                <span class="section-tag">Segurança do Trabalho</span>
+                <h2>Laudos Técnicos e <span class="highlight-green">Engenharia</span></h2>
+                <p>Elaboração técnica rigorosa para garantir a conformidade legal e a integridade física dos seus colaboradores.</p>
+            </div>
+
+            <div class="laudos-grid-wrapper">
+                
+                <div class="documents-grid">
+                    
+                    <div class="doc-card animate-on-scroll delay-1">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm1 14h-2v2h2v-2zm0-6h-2v4h2v-4z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>PGR</h4>
+                            <span>Programa de Gerenciamento de Riscos</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-1">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 11h-4v4h-4v-4H6v-4h4V6h4v4h4v4z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>PCMSO</h4>
+                            <span>Prog. de Controle Médico de Saúde Ocup.</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-1">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M15 13V5c0-1.66-1.34-3-3-3S9 3.34 9 5v8c-1.21.91-2 2.37-2 4 0 2.76 2.24 5 5 5s5-2.24 5-5c0-1.63-.79-3.09-2-4zm-4-8c0-.55.45-1 1-1s1 .45 1 1h-2z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>LTCAT</h4>
+                            <span>Laudo Téc. das Condições Ambientais</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-2">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M20.5 6c-2.61.7-5.67 1-8.5 1s-5.89-.3-8.5-1L3 8c1.86.5 4 .83 6 1v13h2v-6h2v6h2V9c2-.17 4.14-.5 6-1l-.5-2zM12 6c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>AET</h4>
+                            <span>Análise Ergonômica do Trabalho</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-2">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>APR</h4>
+                            <span>Análise Preliminar de Risco</span>
+                        </div>
+                    </div>
+
+                     <div class="doc-card animate-on-scroll delay-2">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>PAE</h4>
+                            <span>Plano de Ação Emergencial</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-3">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>ART / OS</h4>
+                            <span>Resp. Técnica e Ordem de Serviço</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-3">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 2.2.73 4.23 1.96 5.86L12 22l8.04-4.14C21.27 16.23 22 14.2 22 12c0-5.52-4.48-10-10-10zm-2 12h4v2h-4v-2z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>PPR</h4>
+                            <span>Prog. de Proteção Respiratória</span>
+                        </div>
+                    </div>
+
+                    <div class="doc-card animate-on-scroll delay-3">
+                        <div class="doc-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 3v9.28c-.47-.17-.97-.28-1.5-.28C8.01 12 6 14.01 6 16.5S8.01 21 10.5 21c2.31 0 4.2-1.75 4.45-4H15V6h4V3h-7z"/></svg>
+                        </div>
+                        <div class="doc-info">
+                            <h4>PCA</h4>
+                            <span>Prog. de Conservação Auditiva</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="scanner-visual animate-fade">
+                    <div class="scanner-frame">
+                        <img src="./IMG/imgB4.jpg" alt="Medição de Ruído Engenharia" class="scanner-img">
+                        
+                        <div class="scan-line"></div>
+                        <div class="scan-overlay"></div>
+                        
+                        <div class="data-box top-right">
+                            <span>dB Level</span>
+                            <strong>85.4</strong>
+                        </div>
+                        <div class="data-box bottom-left">
+                            <span>Status</span>
+                            <strong style="color: #27C93F;">Analisando...</strong>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="treinamentos" class="training-section">
+        <div class="overlay-construction"></div>
+        
+        <div class="container relative-z">
+            
+            <div class="training-header animate-on-scroll">
+                <span class="badge-white">Capacitação Técnica</span>
+                <h2>Treinamentos e <span class="text-gradient-construction">Normas Regulamentadoras</span></h2>
+                <p>Equipes preparadas e certificadas para atuar na Construção Civil e Indústria com segurança máxima.</p>
+            </div>
+
+            <div class="training-grid">
+
+                <div class="train-card featured-card animate-on-scroll">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2zm0 2.8l6 6V18h-2v-6H8v6H6v-7.2l6-6z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-18</span>
+                        <h3>Indústria da Construção</h3>
+                        <p>Segurança completa no canteiro de obras.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-1">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M13 2.5l3.5 3.5-3.5 3.5V6H5v14H3V4h10V2.5zM17 10h2v10h-2V10zm-4 4h2v6h-2v-6z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-35</span>
+                        <h3>Trabalho em Altura</h3>
+                        <p>Técnicas verticais e uso de EPIs específicos.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-1">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M7 2v11h3v9l7-12h-4l4-8z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-10</span>
+                        <h3>Segurança em Eletricidade</h3>
+                        <p>Instalações e serviços com risco elétrico.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-1">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-33</span>
+                        <h3>Espaço Confinado</h3>
+                        <p>Vigias e trabalhadores autorizados.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-2">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M4 17h16v2H4v-2zm15-6h-4V5H9v8H5v2h14v-4zm-8-4h2v4h-2V7z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-11</span>
+                        <h3>Operador de Empilhadeira</h3>
+                        <p>Transporte e movimentação de cargas.</p>
+                    </div>
+                </div>
+
+                 <div class="train-card animate-on-scroll delay-2">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58a.49.49 0 0 0 .12-.61l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84a.484.484 0 0 0-.48.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.04.17 0 .34.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58a.49.49 0 0 0-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.27.41.48.41h3.84c.24 0 .44-.17.48-.41l.36-2.54c.59-.24 1.13-.57 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.04-.17 0-.34-.12-.61l-2.03-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-12</span>
+                        <h3>Máquinas e Equipamentos</h3>
+                        <p>Proteção em prensas e similares.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-2">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 19c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0-16c-2.5 2.5-5 5.5-5 9 0 3.5 3 6.5 6 6.5s6-3 6-6.5c0-3.5-2.5-6.5-5-9z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-23</span>
+                        <h3>Brigada de Incêndio</h3>
+                        <p>Prevenção e combate a princípio de incêndio.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-3">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-06</span>
+                        <h3>Uso de EPIs</h3>
+                        <p>Treinamento correto para proteção individual.</p>
+                    </div>
+                </div>
+
+                <div class="train-card animate-on-scroll delay-3">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-01</span>
+                        <h3>Disposições Gerais</h3>
+                        <p>Introdução às normas de segurança.</p>
+                    </div>
+                </div>
+
+                 <div class="train-card animate-on-scroll delay-3">
+                    <div class="card-border"></div>
+                    <div class="train-icon">
+                        <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                    </div>
+                    <div class="train-content">
+                        <span class="nr-code">NR-05</span>
+                        <h3>CIPA</h3>
+                        <p>Comissão Interna de Prevenção de Acidentes.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="parceiros" class="partners-section">
+        <div class="container">
+            <div class="partners-header animate-on-scroll">
+                <h4>Quem confia na RMLife</h4>
+                <div class="separator-line"></div>
+            </div>
+            
+            <div class="slider-container">
+                <div class="fade-overlay left"></div>
+                <div class="fade-overlay right"></div>
+
+                <div class="slider-track" id="slider-track">
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="contato" class="site-footer">
+        
+        <div class="footer-cta-wrapper animate-on-scroll">
+            <div class="footer-cta">
+                <div class="cta-text">
+                    <h3>Sua empresa está 100% segura?</h3>
+                    <p>Não espere a fiscalização bater na porta. Regularize sua situação agora mesmo com nossos especialistas.</p>
+                </div>
+                <a href="https://wa.me/5511999739696" target="_blank" class="btn-cta-glow">Falar com Especialista</a>
+            </div>
+        </div>
+
+        <div class="container footer-content">
+            
+            <div class="footer-grid">
+                
+                <div class="footer-brand">
+                    <img src="./IMG/logoRM.png" alt="RMLife Logo" class="footer-logo">
+                    <p class="brand-desc">
+                        Transformamos obrigações legais em cultura de prevenção. Mais que laudos, entregamos tranquilidade para sua operação e proteção para sua equipe.
+                    </p>
+                    <div class="social-magnetic-area">
+                        <a href="https://www.instagram.com/rmlifeseg" target="_blank" class="social-btn">
+                            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            <span>@rmlifeseg</span>
+                        </a>
+                        
+                        <a href="mailto:sst@rmlifeseg.com.br" class="social-btn">
+                            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                            <span>sst@rmlifeseg.com.br</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-team">
+                    <h5 class="footer-title">Responsáveis Técnicos</h5>
+                    
+                    <div class="tech-id-card">
+                        <div class="id-icon">👩‍💼</div> <div class="id-info">
+                            <strong>Aline Barbosa</strong>
+                            <span class="role">Técnica em Segurança do Trabalho</span>
+                            <span class="mte-code">MTE nº 0133178/SP</span>
+                            <a href="https://wa.me/5511992304611" target="_blank" class="phone-link">
+                                (11) 99230-4611
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="tech-id-card">
+                        <div class="id-icon">👷</div>
+                        <div class="id-info">
+                            <strong>Marcelo Lourenço</strong>
+                            <span class="role">Técnico em Segurança do Trabalho</span>
+                            <span class="mte-code">MTE nº 72928-SP</span>
+                            <a href="https://wa.me/5511999739696" target="_blank" class="phone-link">
+                                (11) 99973-9696
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="tech-id-card">
+                        <div class="id-icon">🚒</div>
+                        <div class="id-info">
+                            <strong>Reginaldo da Cunha Barbosa</strong>
+                            <span class="role">Téc. Seg. Trabalho e Bombeiro Civil</span>
+                            <span class="mte-code">MTE nº 39221-SP</span>
+                            <a href="https://wa.me/5511971334083" target="_blank" class="phone-link">
+                                (11) 97133-4083
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h5 class="footer-title">Navegação</h5>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Medicina Ocupacional</a></li>
+                        <li><a href="#gestao">Gestão eSocial</a></li>
+                        <li><a href="#laudos">Laudos Técnicos</a></li>
+                        <li><a href="#treinamentos">Treinamentos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> RMLife - Segurança e Medicina do Trabalho. Todos os direitos reservados.</p>
+                
+                <div class="developer-credit">
+                    <span>Desenvolvido por <a href="https://studioh5.com.br" target="_blank" class="studio-link">StudioH5</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="contact-modal" class="modal-overlay">
+        <div class="modal-container">
+            <button class="modal-close" onclick="closeModal()">×</button>
+            
+            <div class="modal-header">
+                <h3>Como podemos ajudar?</h3>
+                <p>Escolha o especialista ideal para sua necessidade:</p>
+            </div>
+
+            <div class="specialists-options">
+                
+                <a href="https://wa.me/5511992304611" target="_blank" class="specialist-card">
+                    <div class="spec-avatar">👩‍💼</div>
+                    <div class="spec-info">
+                        <strong>Falar com Aline</strong>
+                        <span class="spec-role">Técnico em Segurança</span>
+                        <span class="spec-desc">Respostas rápidas, dúvidas e agendamentos.</span>
+                    </div>
+                   
+                </a>
+
+                <a href="https://wa.me/5511999739696" target="_blank" class="specialist-card">
+                    <div class="spec-avatar">👷</div>
+                    <div class="spec-info">
+                        <strong>Falar com Marcelo</strong>
+                        <span class="spec-role">Técnico em Segurança</span>
+                        <span class="spec-desc">Ideal para: Laudos, Normas e Gestão Técnica.</span>
+                    </div>
+                    
+                </a>
+
+                <a href="https://wa.me/5511971334083" target="_blank" class="specialist-card">
+                    <div class="spec-avatar">🚒</div>
+                    <div class="spec-info">
+                        <strong>Falar com Reginaldo</strong>
+                        <span class="spec-role">Téc. Seg. e Bombeiro Civil</span>
+                        <span class="spec-desc">Ideal para: Brigada, Emergências e Operacional.</span>
+                    </div>
+                    
+                </a>
+
+            </div>
+            <p class="modal-note">Ao clicar, você será redirecionado para o WhatsApp.</p>
+        </div>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
